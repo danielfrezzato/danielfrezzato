@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel Frezzato — Sviluppatore Software | Consulenza & Digitalizzazione</title>
+  <meta name="description"
+    content="Sviluppatore software con 6+ anni di esperienza. Automazione processi, digitalizzazione PMI, software custom, siti web e consulenza informatica." />
+  <meta name="keywords"
+    content="sviluppatore software, consulenza informatica, digitalizzazione, automazione, siti web, software custom" />
+  <meta name="author" content="Daniel Frezzato" />
+  <meta property="og:title" content="Daniel Frezzato — Sviluppatore Software" />
+  <meta property="og:description"
+    content="Trasformo le tue idee in soluzioni digitali concrete. 6+ anni di esperienza." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ═══════════════════ NAVBAR ═══════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>DF<span class="logo-bracket"> /&gt;</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#servizi" class="nav-link">Servizi</a></li>
+        <li><a href="#chi-sono" class="nav-link">Chi Sono</a></li>
+        <li><a href="#contatti" class="nav-link">Contatti</a></li>
+        <li><a href="#contatti" class="nav-link nav-cta">Iniziamo</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════ HERO ═══════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-particles" id="heroParticles"></div>
+    <div class="hero-content reveal">
+      <p class="hero-tag">Consulenza & Digitalizzazione · 6+ Anni di Esperienza</p>
+      <h1 class="hero-title">
+        Trasformo le tue idee in
+        <span class="gradient-text">soluzioni digitali</span>
+      </h1>
+      <p class="hero-subtitle">
+        Automazione, digitalizzazione e software su misura per far crescere il tuo business.
+        Dal primo incontro al prodotto finito, ti accompagno in ogni fase.
+      </p>
+      <div class="hero-actions">
+        <a href="#contatti" class="btn btn-primary">
+          <i data-lucide="send" class="btn-icon"></i>
+          Parliamone
+        </a>
+        <a href="#servizi" class="btn btn-outline">
+          <i data-lucide="layers" class="btn-icon"></i>
+          I Miei Servizi
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number" data-target="6">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Anni di Esperienza</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="50">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Progetti Completati</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="30">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Clienti Soddisfatti</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <i data-lucide="chevrons-down"></i>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ SERVIZI ═══════════════════ -->
+  <section class="section servizi" id="servizi">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">Cosa Posso Fare Per Te</p>
+        <h2 class="section-title">I Miei <span class="gradient-text">Servizi</span></h2>
+        <p class="section-subtitle">Soluzioni concrete per ogni esigenza digitale, dalla consulenza iniziale al prodotto
+          finito.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <div class="card-glow"></div>
+          <div class="card-icon">
+            <i data-lucide="workflow"></i>
+          </div>
+          <h3>Automazione Processi</h3>
+          <p>Ottimizza i tuoi flussi di lavoro con soluzioni di automazione intelligenti. Elimina le attività ripetitive
+            e concentrati su ciò che conta.</p>
+          <ul class="card-features">
+            <li><i data-lucide="check-circle-2"></i> RPA & Workflow Automation</li>
+            <li><i data-lucide="check-circle-2"></i> Integrazione Sistemi</li>
+            <li><i data-lucide="check-circle-2"></i> Reportistica Automatica</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="card-glow"></div>
+          <div class="card-icon">
+            <i data-lucide="rocket"></i>
+          </div>
+          <h3>Digitalizzazione PMI</h3>
+          <p>Accompagno le piccole e medie imprese nel percorso di trasformazione digitale, dalla strategia
+            all'implementazione.</p>
+          <ul class="card-features">
+            <li><i data-lucide="check-circle-2"></i> Analisi e Strategia Digitale</li>
+            <li><i data-lucide="check-circle-2"></i> Cloud Migration</li>
+            <li><i data-lucide="check-circle-2"></i> Formazione del Personale</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="card-glow"></div>
+          <div class="card-icon">
+            <i data-lucide="code-2"></i>
+          </div>
+          <h3>Software Custom</h3>
+          <p>Sviluppo applicazioni su misura per le tue esigenze specifiche. Dal gestionale aziendale all'app mobile,
+            ogni soluzione è unica.</p>
+          <ul class="card-features">
+            <li><i data-lucide="check-circle-2"></i> App Web & Mobile</li>
+            <li><i data-lucide="check-circle-2"></i> API & Microservizi</li>
+            <li><i data-lucide="check-circle-2"></i> Manutenzione & Supporto</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="card-glow"></div>
+          <div class="card-icon">
+            <i data-lucide="globe"></i>
+          </div>
+          <h3>Siti Web</h3>
+          <p>Creo siti web moderni, performanti e responsive che convertono i visitatori in clienti. Design unico e SEO
+            integrato.</p>
+          <ul class="card-features">
+            <li><i data-lucide="check-circle-2"></i> Design Responsive</li>
+            <li><i data-lucide="check-circle-2"></i> SEO & Performance</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="card-glow"></div>
+          <div class="card-icon">
+            <i data-lucide="computer"></i>
+          </div>
+          <h3>Supporto Tecnologico</h3>
+          <p>Ti affianco nell'installazione di periferiche e software, configurazione di sistemi operativi e risoluzione
+            di problemi tecnici.</p>
+          <ul class="card-features">
+            <li><i data-lucide="check-circle-2"></i> Installazione Software</li>
+            <li><i data-lucide="check-circle-2"></i> Configurazione Sistemi Operativi</li>
+            <li><i data-lucide="check-circle-2"></i> Risoluzione Problemi Tecnici</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="card-glow"></div>
+          <div class="card-icon">
+            <i data-lucide="brain-circuit"></i>
+          </div>
+          <h3>Consulenza Software</h3>
+          <p>Ti aiuto a prendere le decisioni tecnologiche giuste. Dall'architettura software alla scelta degli
+            strumenti, sono al tuo fianco.</p>
+          <ul class="card-features">
+            <li><i data-lucide="check-circle-2"></i> Architettura Software</li>
+            <li><i data-lucide="check-circle-2"></i> Code Review & Audit</li>
+            <li><i data-lucide="check-circle-2"></i> Scelta Tecnologie</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ CHI SONO ═══════════════════ -->
+  <section class="section chi-sono" id="chi-sono">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content reveal">
+          <p class="section-tag">Chi Sono</p>
+          <h2 class="section-title">
+            <span class="gradient-text">6 Anni</span> di Passione<br />per l'Informatica
+          </h2>
+          <p class="about-text">
+            Sono Daniel Frezzato, ragazzo di 25 anni amante della tecnologia con oltre 6 anni di esperienza nel
+            creare
+            soluzioni digitali che fanno la differenza. Ho lavorato con aziende di ogni dimensione,
+            aiutandole a ottimizzare i processi, digitalizzare le operazioni e costruire software
+            che funziona davvero.
+          </p>
+          <p class="about-text">
+            Il mio approccio è semplice: <strong>ascoltare, capire, realizzare</strong>. Ogni progetto
+            inizia con una conversazione per comprendere le tue reali esigenze, e si conclude con una
+            soluzione che supera le aspettative.
+          </p>
+          <!-- <div class="tech-stack">
+            <span class="tech-tag">.NET</span>
+            <span class="tech-tag">Angular</span>
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">TypeScript</span>
+            <span class="tech-tag">C#</span>
+            <span class="tech-tag">SQL</span>
+            <span class="tech-tag">Azure</span>
+            <span class="tech-tag">Node.js</span>
+          </div> -->
+        </div>
+        <div class="about-visual reveal">
+          <div class="experience-card">
+            <div class="exp-icon"><i data-lucide="target"></i></div>
+            <h4>Mission</h4>
+            <p>Rendere la tecnologia accessibile e utile per ogni impresa, grandi o piccola che sia.</p>
+          </div>
+          <div class="experience-card">
+            <div class="exp-icon"><i data-lucide="shield-check"></i></div>
+            <h4>Affidabilità</h4>
+            <p>Tempi rispettati, comunicazione trasparente e supporto continuo anche dopo il rilascio.</p>
+          </div>
+          <div class="experience-card">
+            <div class="exp-icon"><i data-lucide="lightbulb"></i></div>
+            <h4>Innovazione</h4>
+            <p>Tecnologie moderne e best practice per soluzioni scalabili e pronte per il futuro.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ PROCESSO ═══════════════════ -->
+  <section class="section processo" id="processo">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">Come Lavoro</p>
+        <h2 class="section-title">Un Processo <span class="gradient-text">Chiaro e Trasparente</span></h2>
+      </div>
+      <div class="process-timeline">
+        <div class="process-step reveal">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h3>Ascolto & Analisi</h3>
+            <p>Ci incontriamo (anche online) per capire le tue esigenze, obiettivi e sfide attuali.</p>
+          </div>
+        </div>
+        <div class="process-step reveal">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <h3>Proposta & Pianificazione</h3>
+            <p>Ti presento una soluzione su misura con tempi, costi e milestones chiari.</p>
+          </div>
+        </div>
+        <div class="process-step reveal">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <h3>Sviluppo & Test</h3>
+            <p>Costruisco la soluzione con aggiornamenti regolari. Nessuna sorpresa alla consegna.</p>
+          </div>
+        </div>
+        <div class="process-step reveal">
+          <div class="step-number">04</div>
+          <div class="step-content">
+            <h3>Rilascio & Supporto</h3>
+            <p>Deploy, formazione e supporto continuo per garantire il successo del progetto.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ CONTATTI ═══════════════════ -->
+  <section class="section contatti" id="contatti">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <p class="section-tag">Iniziamo Insieme</p>
+          <h2 class="section-title">Hai un <span class="gradient-text">progetto</span> in mente?</h2>
+          <p class="contact-text">
+            Raccontami la tua idea. La prima consulenza è gratuita e senza impegno.
+            Rispondo entro 24 ore.
+          </p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon"><i data-lucide="mail"></i></div>
+              <div>
+                <span class="contact-label">Email</span>
+                <a href="mailto:daniel.frezzato.df@gmail.com" class="contact-value">daniel.frezzato.df@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i data-lucide="phone"></i></div>
+              <div>
+                <span class="contact-label">Telefono</span>
+                <a href="https://wa.me/393331072301?text=Buongiorno%2C%20ho%20visitato%20il%20vostro%20sito%20e%20sono%20interessato%20a%20una%20consulenza%20personalizzata.%20Potrei%20avere%20maggiori%20dettagli%20sui%20servizi%20offerti%3F"
+                  class="contact-value">+39 333 107 2301</a>
+              </div>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/daniel-frezzato-765371197/" class="social-link"
+              aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ FOOTER ═══════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo">
+            <span class="logo-bracket">&lt;</span>DF<span class="logo-bracket"> /&gt;</span>
+          </a>
+          <p>Soluzioni digitali su misura per il tuo business.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Link Rapidi</h4>
+          <a href="#servizi">Servizi</a>
+          <a href="#chi-sono">Chi Sono</a>
+          <a href="#processo">Come Lavoro</a>
+          <a href="#contatti">Contatti</a>
+        </div>
+        <div class="footer-links">
+          <h4>Servizi</h4>
+          <a href="#servizi">Automazione</a>
+          <a href="#servizi">Digitalizzazione</a>
+          <a href="#servizi">Software Custom</a>
+          <a href="#servizi">Siti Web</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Daniel Frezzato. Tutti i diritti riservati.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
