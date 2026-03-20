@@ -51,6 +51,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 80px;
+  overflow-x: hidden;
 }
 
 body {
@@ -742,8 +743,10 @@ img {
   margin-top: 32px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 40px;
   margin-bottom: 32px;
+  flex-wrap: wrap;
 }
 
 .contact-item {
@@ -897,6 +900,10 @@ a.contact-value:hover {
   transition-delay: 0.4s;
 }
 
+.services-grid .reveal:nth-child(6) {
+  transition-delay: 0.5s;
+}
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -940,6 +947,10 @@ a.contact-value:hover {
   .footer-grid {
     grid-template-columns: 1fr 1fr;
     gap: 32px;
+  }
+
+  .experience-card:hover {
+    transform: translateX(0);
   }
 }
 
@@ -997,6 +1008,11 @@ a.contact-value:hover {
     font-size: clamp(2rem, 8vw, 3rem);
   }
 
+  .hero-tag {
+    font-size: 0.75rem;
+    letter-spacing: 1.5px;
+  }
+
   .footer-grid {
     grid-template-columns: 1fr;
     gap: 32px;
@@ -1008,8 +1024,17 @@ a.contact-value:hover {
     text-align: center;
   }
 
-  .contact-form {
-    padding: 28px 20px;
+  .contact-details {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .contact-info {
+    max-width: 100%;
+  }
+
+  .section-title {
+    font-size: clamp(1.6rem, 5vw, 2.2rem);
   }
 
   .process-timeline::before {
@@ -1021,9 +1046,21 @@ a.contact-value:hover {
     height: 56px;
     font-size: 1rem;
   }
+
+  .process-step {
+    gap: 16px;
+  }
+
+  .experience-card {
+    padding: 20px;
+  }
 }
 
 @media (max-width: 480px) {
+  .hero {
+    padding: 100px 16px 60px;
+  }
+
   .hero-actions {
     flex-direction: column;
     align-items: center;
@@ -1037,6 +1074,33 @@ a.contact-value:hover {
   .hero-stats {
     flex-direction: column;
     gap: 24px;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .service-card {
+    padding: 28px 20px;
+  }
+
+  .step-number {
+    width: 48px;
+    height: 48px;
+    font-size: 0.9rem;
+  }
+
+  .process-timeline::before {
+    left: 23px;
+  }
+
+  .contact-item {
+    gap: 12px;
+  }
+
+  .contact-icon {
+    width: 40px;
+    height: 40px;
   }
 }
 
