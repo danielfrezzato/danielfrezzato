@@ -952,6 +952,10 @@ a.contact-value:hover {
   .experience-card:hover {
     transform: translateX(0);
   }
+
+  .reveal.visible {
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 768px) {
