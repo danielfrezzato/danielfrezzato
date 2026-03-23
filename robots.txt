@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://danielfrezzato.github.io/danielfrezzato/sitemap.xml
